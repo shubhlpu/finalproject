@@ -1,0 +1,193 @@
+	* {
+		border-radius: 6px;
+
+	}
+	.wrapper{
+			display: flex;
+			flex-flow:  wrap;
+			justify-content: center;
+			align-items: center;
+			font-family: 'Oswald', sans-serif;
+			margin: 0;
+			}
+		#loading {
+				border:3px solid black;
+			margin:1em;
+			width: 300px;
+			height: 200px;
+
+		}
+		img{
+			border:3px solid black;
+			margin:1em;
+			width: 350px;
+			height: 250px;
+			z-index: 3;
+		}
+		button {
+			background: rgba(255,255,255,0.1);
+			height: 2em;
+			width: 10em;
+			border:none;
+			color:white;
+			border-radius: 5px;
+			font-size: 1.5em;
+			cursor: pointer;
+			transition: 0.3s;
+			margin: 2em;
+		}
+		button:hover {
+			background: linear-gradient(277deg, #d81ed9, #d91e1e, #751ed9);
+			background-size: 600% 600%;
+			box-shadow: 0.5px 0.5px 10px  rgba(0,0,0,1);
+			transition: 0.3s;		
+		}
+		input{
+		height: 2.5em;
+		padding: 1.3em;
+		width: 20em;
+		}
+		td,th {
+			    padding: 10px 10px;
+			
+		}
+		th{
+			width:30%;
+		}
+		table {
+
+			background:transparent; 
+			/*display: table;*/
+			/*border-collapse: collapse;*/
+			margin-top: 10px;
+			/*border: 2px solid black;*/
+
+			/*box-shadow: 1px 1px 10px  rgba(0,0,0,0.5);*/
+
+		}
+	
+
+		#gallary {
+			
+			position:relative;
+			background: url(https://farm6.staticflickr.com/5282/5324847138_d98c0661ea_b.jpg);
+			background-size: 100% 100%;
+			box-shadow:0.5px 0.5px 10px  rgba(0,0,0,1);
+			margin:0em 3em;
+		}
+		#gallary::after {
+			content:' ';
+			position:absolute;
+			min-height:100%;
+			min-width:100%;
+			background: rgba(0,0,0,0.5);
+			z-index: 2;
+		}
+		header{
+			width:100%;
+			border-radius: 0;
+			color:white;
+			margin-top: -1px;
+		}
+
+		.menu-bt{
+			margin:1em;
+			width:auto;
+			height: auto;
+			background: rgba(255,255,255,0.1);
+			padding: 1em;
+		}
+		button:hover{
+			background: linear-gradient(277deg, #751ed9, #d91e1e,#d81ed9);
+			background-size: 110% 110%;
+			box-shadow: 0px 0px 20px  rgba(0,0,0,0.6);
+			transition-duration: 0.3;
+		}
+		.menu-wrapper{
+			/*background: linear-gradient(to left ,red , yellow 30%,orange 40%);*/
+			height: 100vh;
+			width:100%;
+			transition: 1s;
+		}
+		body{
+			background: linear-gradient(277deg, #d81ed9, #d91e1e, #751ed9);
+			background-size: 200% 200%;
+			height: 100vh;
+		}
+		.menu {
+			position: relative;
+			top:-100px;
+			padding: 2em;
+		}
+		#home {
+			margin:auto;
+			font-size: 2em;
+			position: relative;
+			right:430px;
+			top:5px;
+			color: rgba(255,255,255,0.5);
+
+		}
+		#home:hover{
+			 color:rgba(255,255,255,1);
+			 transition-duration: 0.5s;
+
+		}
+		.money {
+			min-height: 300px;
+			width: 300px;
+			background:rgba(255,255,255,0.1); 
+			margin: 2em;
+			box-shadow: 0px 0px 20px rgba(0,0,0,0.5); 
+		}
+		.calculator{
+			min-width:400px;
+			flex-flow: column wrap;
+		}
+		.cal-body{
+			position: relative;
+			bottom: 50px;
+			margin-top: 2em;
+		}
+		select{
+			background: rgba(255,255,255,0.1);
+			height: 2em;
+			border:none;
+			border-radius: 5px;
+			font-size: 1.5em;
+
+
+		}
+		.money p {
+			font-size: 4em;
+			text-align: center;
+		}
+
+		#tdd {
+			margin: 2px ;
+
+		}
+		#thh {
+			margin: 2px ;
+
+			width:auto;
+		}
+		#infoTable{
+			width:100%;
+			margin: 2em;
+			padding: 2em;
+			color :white;
+		}
+		#wola{
+			width: 55%;
+			background: rgba(0,0,0,0.5);
+		}
+		#cal-data {
+			width:100%;
+			border: white;
+			margin: 0.5em;
+		}
+		#cricket {
+			background: rgba(255,255,255,0.5);
+			width: 60%;
+		}
